@@ -1,17 +1,33 @@
 package Assignments;
 
-public class Assignment3 {
+public class Assignment2 {
 	static void add() {
-		System.out.println("ADD");
+		int a=10;
+		int b=90;
+		int result;
+		result=a+b;
+		System.out.println(result);
 	}
     static void sub() {
-    	System.out.println("SUB");
+    	int a=10;
+    	int b=90;
+    	int result;
+    	result=a-b;
+    	System.out.println(result);
 	}
     static void mul() {
-    	System.out.println("MUL");
+    	int a=10;
+    	int b=90;
+    	int result;
+    	result=a*b;
+    	System.out.println(result);
 	}
     static void div() {
-    	System.out.println("DIV");
+    	int a=10;
+    	int b=90;
+    	int result;
+    	result=a/b;
+    	System.out.println(result);
 	}
     public static void main(String[] args) {
 		 add();
