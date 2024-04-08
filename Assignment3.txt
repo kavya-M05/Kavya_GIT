@@ -1,0 +1,22 @@
+package Assignments;
+
+public class Assignment3 {
+	static void add() {
+		System.out.println("ADD");
+	}
+    static void sub() {
+    	System.out.println("SUB");
+	}
+    static void mul() {
+    	System.out.println("MUL");
+	}
+    static void div() {
+    	System.out.println("DIV");
+	}
+    public static void main(String[] args) {
+		 add();
+		 sub();
+		 mul();
+		 div();
+	}
+}
