@@ -1,0 +1,33 @@
+package Assignments;
+
+import java.util.Scanner;
+
+public class Assignment9 {
+	final static double pi =3.14;
+	static double r;
+   public static void main(String[] args) {
+	Scanner s = new Scanner(System.in);
+	System.out.println("Enter the number:-");
+	r=s.nextDouble();
+	double areaofcircle = (2*pi*r*r);
+	System.out.println(areaofcircle);
+	s.close();
+}
+}
+
+package Assignments;
+
+import java.util.Scanner;
+
+public class Assignment 9a {
+	final static double pi =3.14;
+	static double r;
+   public static void main(String[] args) {
+	Scanner s = new Scanner(System.in);
+	System.out.println("Enter the number:-");
+	r=s.nextDouble();
+	double areaofcircumference = (2*pi*r);
+	System.out.println(areaofcircumference);
+	s.close();
+}
+}

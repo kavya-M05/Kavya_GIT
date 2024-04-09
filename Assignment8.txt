@@ -1,0 +1,32 @@
+package Assignments;
+
+import java.util.Scanner;
+public class Assignment8 {
+	int a;
+	int b;
+	void add() {
+		System.out.println(a+b);
+	}
+	void sub() {
+		System.out.println(a-b);
+	}
+	void mul() {
+		System.out.println(a*b);
+	}
+	void div() {
+		System.out.println(a/b);
+	}
+    public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		Assignment8 u = new Assignment8(); 
+		System.out.println("Enter the number1:-");
+		u.a=sc.nextInt();
+		System.out.println("Enter the number2:-");
+		u.b=sc.nextInt();
+		sc.close();
+		u.add();
+		u.sub();
+		u.mul();
+		u.div();
+	}
+}
