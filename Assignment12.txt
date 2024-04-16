@@ -1,0 +1,26 @@
+package Assignments;
+
+import java.util.Scanner;
+
+public class Assignment_12 {
+	static int a;
+  public static void main(String[] args) {
+	Scanner sc =new Scanner(System.in);
+	System.out.println("even numbers");
+	for(int i=0;i<100;i++) {
+		if (i%2==0) {
+			System.out.println(i);
+		}
+				
+	}
+	System.out.println("Odd numbers");
+	for(int i=0;i<100;i++) {
+		if (i%2!=0) {
+			System.out.println(i);
+		}
+				
+	}
+		
+	sc.close();
+}
+}
