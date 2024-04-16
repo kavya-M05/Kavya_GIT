@@ -1,0 +1,17 @@
+package Assignments;
+
+import java.util.*;
+//import java.util.Date;
+//find future time in 10 days.
+public class Assignment18_ {
+
+  public static void main(String[] args) {
+	  Date d = new Date();
+	  System.out.println(d);
+	  Date t = new Date(d.getTime());
+	  System.out.println(t);
+	  Date future_time = new Date(d.getTime()-(1000*60*60*24*10));
+	  System.out.println(future_time);
+}
+  
+}

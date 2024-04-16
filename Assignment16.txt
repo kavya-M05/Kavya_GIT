@@ -1,0 +1,52 @@
+package Assignments;
+abstract class A{
+	abstract void m1();
+	abstract void m2();
+	
+}
+abstract class B extends A{
+	abstract void m12();
+	abstract void m13();
+	void m4() {
+		System.out.println("Concrete method");
+	}
+}
+public class Assignment161 extends B {
+ public static void main(String[] args) {
+	System.out.println("Main method");
+	Assignment161 A = new Assignment161();
+	A.m1();
+	A.m2();
+	A.m12();
+	A.m13();
+	A.m4();
+	A.m5();
+	
+}
+
+@Override
+void m12() {
+	
+	System.out.println(1);
+}
+
+@Override
+void m13() {
+	System.out.println(2);
+	
+}
+
+@Override
+void m1() {
+	System.out.println(3);
+}
+
+@Override
+void m2() {
+	System.out.println(4);
+	
+}
+void m5() {
+	System.out.println("Concrete method");
+}
+}
